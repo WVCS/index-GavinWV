@@ -1,11 +1,12 @@
-<nav>
+ <nav>
     <li><a href="index.html"> HOME </a></li>
     <li><a href="https://docs.google.com/presentation/d/13AxfuiM6aZHv5OCtxzf0TwldEePByRXDsVR6fYr6i98/edit?usp=sharing"> ABOUT </a></li> 
     <li><a href="https://www.microsoft.com/en-us/"> Microsoft </a></li>
   </nav>
 <br>
+<Center>
 <h1> Quarter 4 Schedule </h1>
-<table> 
+<table class=container> 
   <tr>
     <th> Period </th>
     <th> Class </th>
@@ -37,6 +38,24 @@
 
 
 <style>
+h1: {
+  color: black;
+  font-size: 20px;
+}
+h1:hover{
+  font-size:50px;
+  color: white;
+}
+.container{
+  width: 30%;
+  Height: 200%;
+  padding: 2px;
+
+}
+body {
+
+  background-color: gold
+}
 nav {
   list-style-type: none;
   position: fixed;
@@ -59,6 +78,11 @@ a {
   color: #BCBDBD;
 }
 table, th, tr, td {
-border: dashed black 1px
+border: solid black 2px;
+}
+
+td:hover {
+  color: white;
+  font-size: 20;
 }
 </style>
